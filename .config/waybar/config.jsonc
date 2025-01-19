@@ -11,10 +11,7 @@
     "margin-right": 10,
     // Choose the order of the modules
     "modules-left": [
-        "custom/launcher",
         "hyprland/workspaces",
-        // "cpu",
-        // "memory",
         // "temperature",
         // "disk",
         "custom/updates"
@@ -23,10 +20,12 @@
         "custom/music"
     ],
     "modules-right": [
-        "network",
-        "pulseaudio",
-        "backlight",
-        "battery",
+        // "network",
+        // "pulseaudio",
+        // "backlight",
+        // "battery",
+        "cpu",
+        "memory",
         "custom/notifications",
         "tray",
         "clock",
@@ -229,7 +228,7 @@
         "spacing": 15
     },
     "clock": {
-        "timezone": "Asia/Calcutta",
+        "timezone": "America/Chicago",
         "format": " {:%d <small>%a</small> %H:%M}",
         //"format": " {:%a %b %d %Y | %H:%M}",
         "format-alt": " {:%A %B %d %Y (%V) | %r}",
