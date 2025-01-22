@@ -40,7 +40,7 @@ $scripts/launch_waybar &
 # g4music &
 
 # wallpaper
-$scripts/wall ~/.config/hypr/wallpapers/1.jpg &
+$scripts/wall ~/.config/hypr/wallpapers/leaves.jpg &
 
 # effects
 # $scripts/tools/rgb &
